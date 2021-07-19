@@ -32,11 +32,11 @@ app.post("/", function(req, res) {
 
   var jsonData = JSON.stringify(data);
 
-  const url = "https://us6.api.mailchimp.com/3.0/lists/518f403204"
-
+  const url =
+//url of your website from heroku with list id
   const options = {
     method: "POST",
-    auth: "VarunGontla:c2c0e8f072ec6b1096128bdced5be0c8-us6"
+    auth: "<username>:<APIKey>"
   }
 
   const request = https.request(url, options, function(response) {
@@ -62,10 +62,3 @@ app.post("/failure.html", function(req, res) {
 app.listen(process.env.PORT || 3000, function() {
   console.log("Server is running on port 3000.")
 });
-
-
-// API KEY
-// c2c0e8f072ec6b1096128bdced5be0c8-us6
-
-// List ID
-// 518f403204
