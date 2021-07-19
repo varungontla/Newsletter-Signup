@@ -10,8 +10,8 @@ A simple sign-up page for subscribing to your content or to your event or any ot
 
 
 # Usage
-1.after done cloning use the below command in your command line while the path is in your directory.
-npm i express https body-parser request
+1.after done cloning use the below command in your command line while the path is in your directory use => 
+"npm i express https body-parser request"
 
 2. this will download the required modules for this project.url of your website,
 3. In the app.js url part add your api from mailchimp + list ID
