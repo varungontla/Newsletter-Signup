@@ -15,7 +15,7 @@ npm i express https body-parser request
 
 2. this will download the required modules for this project.url of your website,
 3. In the app.js url part add your api from mailchimp + list ID
-    EX:   const url = "https://us6.api.mailchimp.com/3.0/lists/<listID>"
+    EX:   const url = https://us6.api.mailchimp.com/3.0/lists/ + <listID>
   in the above url the server(us6 for me) may vary.
   
 # Demo
